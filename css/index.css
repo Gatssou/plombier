@@ -11,14 +11,11 @@ h1{
   text-decoration:none;
 }
 .nav{
-  
+  display: flex;
+  justify-content: center;
   text-align: center;
   height:70px;
-  display: inline-block;
-width: 45.7vw;
-  background:rgba(20, 110, 184, 0.801);
-
-  z-index: 1;
+  background:rgb(20, 110, 184);
 }
 .nav>ul{
   position:relative;
@@ -90,7 +87,7 @@ width: 45.7vw;
 }
 .pres{
 display: flex;
-margin-top: 21vh;
+margin-top: 21.5vh;
     font-size: xx-large;
     color: black;
     background-color: White;
